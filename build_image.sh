@@ -1,7 +1,7 @@
 #! /bin/sh
 if [[ -z "$1"  ]]
 then
-  THREADS=1
+  THREADS=$(nproc --all)
 else
   THREADS=$1
 fi
