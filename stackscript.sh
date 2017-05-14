@@ -9,4 +9,4 @@ yum install -y htop wget zlib-static openssl-devel ncurses-devel
 adduser builder
 su - builder
 
-https://github.com/woodrad/openwrt-builds.git
+git clone https://github.com/woodrad/openwrt-builds.git
