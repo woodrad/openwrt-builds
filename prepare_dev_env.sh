@@ -1,4 +1,4 @@
-#!/bin/sh
+#! /usr/bin/sh
 yum update -y
 yum groupinstall -y "Development Tools"
 yum install -y epel-release htop tmux wget zlib-static openssl-devel\

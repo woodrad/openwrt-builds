@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /usr/bin/sh
 if [[ -z "$1"  ]]
 then
   THREADS=$(nproc --all)
